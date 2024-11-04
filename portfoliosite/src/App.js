@@ -1,18 +1,19 @@
-import logo from './logo.svg';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './shared-components/Navbar';
 import Home from './Home';
+import About from './About';
 
 function App() {
   return (
   
-    <div className="App">
+    <div className="App bg-gray-100">
       <header className="App-header">
-          <Navbar/>
           <Router>
+            <Navbar/>
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
             </Routes>
           </Router>
       </header>
