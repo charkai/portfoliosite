@@ -57,7 +57,7 @@ const About = () => {
                 <div className="block rounded-lg bg-white shadow-secondary-1">
                     <img className="rounded-t-lg max-h-70 w-full" src={Frontend} alt="" />
                     <div class="p-6 text-surface">
-                        <h5 class="mb-2 text-xl font-medium leading-tight text-gray-800">Frontend Development</h5>
+                        <h5 class="mb-2 text-xl font-medium leading-tight text-gray-800">Full Stack Development</h5>
                         <p class="mb-4 text-base">
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
@@ -102,17 +102,14 @@ const About = () => {
                 <div className="block rounded-lg bg-white shadow-secondary-1">
                     <img className="rounded-t-lg" src={Backend} alt="" />
                     <div class="p-6 text-surface">
-                        <h5 class="mb-2 text-xl font-medium leading-tight text-gray-800">Backend Development</h5>
+                        <h5 class="mb-2 text-xl font-medium leading-tight text-gray-800">AWS Suite</h5>
                         <p class="mb-4 text-base">
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
                         </p>
                     </div>
                 </div>
-
-
               
-
 
 
 
