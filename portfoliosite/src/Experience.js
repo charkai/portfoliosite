@@ -11,7 +11,7 @@ const Experience = () => {
 
         <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">Professional Experience</h1>
 
-
+        {/* EXPERIENCE TIMELINE */}
         <div class="w-full max-w-6xl mx-auto px-4 md:px-6">
             <div class="flex flex-col justify-center divide-y divide-slate-200 [&>*]:py-16">
 
@@ -82,9 +82,34 @@ const Experience = () => {
             </div>
         </div>
 
-
         {/* Volunteering */}
+        <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">Volunteering</h1>
 
+        <div class="grid grid-cols-2 md:grid-cols-2 gap-4 pb-20 pt-20">
+
+            <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-white">
+                {/* <img className="rounded-t-lg" src={ReactSkills} alt="" /> */}
+                <div class="p-6 text-surface">
+                    <h5 class="mb-2 text-xl font-medium leading-tight text-gray-800">Regional Education Support Network</h5>
+                    <p class="mb-4 text-base">
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card's content.
+                    </p>
+                </div>
+            </div>
+
+
+            <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-white">
+                {/* <img className="rounded-t-lg" src={PresentationSkills} alt="" /> */}
+                <div class="p-6 text-surface">
+                    <h5 class="mb-2 text-xl font-medium leading-tight text-gray-800">The Greyhound Rescue</h5>
+                    <p class="mb-4 text-base">
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card's content.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
     );
 }
