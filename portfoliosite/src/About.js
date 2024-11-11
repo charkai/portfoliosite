@@ -29,6 +29,76 @@ const About = () => {
 
             <div class="grid grid-cols-2 md:grid-cols-2 gap-4 pb-20">
 
+                <div className="bg-white border border-gray-200 rounded-lg shadow flex w-full mb-4">
+                    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg" src={Database} alt="photo"></img>
+                    <div className="flex flex-col p-4 leading-normal">
+                        <h3 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-800">Database Management</h3>
+                        <p className="mb-3 font-normal text-sm text-gray-700">
+                            I love databases
+                        </p>
+                    </div>
+                </div>
+
+                <div className="bg-white border border-gray-200 rounded-lg shadow flex w-full mb-4">
+                    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg" src={Backend} alt="photo"></img>
+                    <div className="flex flex-col p-4 leading-normal">
+                        <h3 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-800">AWS Suite</h3>
+                        <p className="mb-3 font-normal text-sm text-gray-700">
+                            I love AWS
+                        </p>
+                    </div>
+                </div>
+
+                <div className="bg-white border border-gray-200 rounded-lg shadow flex w-full mb-4">
+                    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg" src={TimeManagement} alt="photo"></img>
+                    <div className="flex flex-col p-4 leading-normal">
+                        <h3 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-800">Time management</h3>
+                        <p className="mb-3 font-normal text-sm text-gray-700">
+                            I love time management
+                        </p>
+                    </div>
+                </div>
+
+                <div className="bg-white border border-gray-200 rounded-lg shadow flex w-full mb-4">
+                    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg" src={Agile} alt="photo"></img>
+                    <div className="flex flex-col p-4 leading-normal">
+                        <h3 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-800">Agile</h3>
+                        <p className="mb-3 font-normal text-sm text-gray-700">
+                            I love agile
+                        </p>
+                    </div>
+                </div>
+
+                <div className="bg-white border border-gray-200 rounded-lg shadow flex w-full mb-4">
+                    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg" src={Teamwork} alt="photo"></img>
+                    <div className="flex flex-col p-4 leading-normal">
+                        <h3 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-800">Teamwork</h3>
+                        <p className="mb-3 font-normal text-sm text-gray-700">
+                            I love working in a team
+                        </p>
+                    </div>
+                </div>
+
+                <div className="bg-white border border-gray-200 rounded-lg shadow flex w-full mb-4">
+                    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg" src={Frontend} alt="photo"></img>
+                    <div className="flex flex-col p-4 leading-normal">
+                        <h3 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-800">Full Stack Development</h3>
+                        <p className="mb-3 font-normal text-sm text-gray-700">
+                            I love fullstack
+                        </p>
+                    </div>
+                </div>
+
+                <div className="bg-white border border-gray-200 rounded-lg shadow flex w-full mb-4">
+                    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg" src={DataStructs} alt="photo"></img>
+                    <div className="flex flex-col p-4 leading-normal">
+                        <h3 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-800">Data Structures and Algorithms</h3>
+                        <p className="mb-3 font-normal text-sm text-gray-700">
+                            I love data structures
+                        </p>
+                    </div>
+                </div>
+
                 
                 <div className="bg-white border border-gray-200 rounded-lg shadow flex w-full mb-4">
                     <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg" src={ReactSkills} alt="photo"></img>
@@ -36,7 +106,6 @@ const About = () => {
                         <h3 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-800">React and Modern Frameworks</h3>
                         <p className="mb-3 font-normal text-sm text-gray-700">
                             I enjoy frontend design using modern frameworks and libraries such as Laravel and React.
-                            These controllers 
                         </p>
                     </div>
                 </div>
@@ -46,133 +115,13 @@ const About = () => {
                     <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg" src={PresentationSkills} alt="photo"></img>
                     <div className="flex flex-col p-4 leading-normal">
                         <h3 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-800">Communication Skills</h3>
-                        <p className="mb-3 font-normal text-xl text-gray-700">I love to yap</p>
+                        <p className="mb-3 font-normal text-sm text-gray-700">
+                            I love to yap
+                        </p>
                     </div>
                 </div>
 
             </div>
-
-
-
-
-            {/* SKILLS GRID */}
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-4 pb-20 pt-10">
-
-                {/* REACT AND OTHER MOERN FRAMEWORKS*/}
-                <div className="block rounded-lg bg-white shadow-secondary-1">
-                    <img className="rounded-t-lg" src={ReactSkills} alt="" />
-                    <div class="p-6 text-surface">
-                        <h5 class="mb-2 text-xl font-medium leading-tight text-gray-800">React and Modern Frameworks</h5>
-                        <p class="mb-4 text-base">
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                        </p>
-                    </div>
-                </div>
-               
-
-
-                <div className="block rounded-lg bg-white shadow-secondary-1">
-                    <img className="rounded-t-lg" src={PresentationSkills} alt="" />
-                    <div class="p-6 text-surface">
-                        <h5 class="mb-2 text-xl font-medium leading-tight text-gray-800">Communication Skills</h5>
-                        <p class="mb-4 text-base">
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                        </p>
-                    </div>
-                </div>
-
-              
-
-                <div className="block rounded-lg bg-white shadow-secondary-1">
-                    <img className="rounded-t-lg max-h-70 w-full" src={Frontend} alt="" />
-                    <div class="p-6 text-surface">
-                        <h5 class="mb-2 text-xl font-medium leading-tight text-gray-800">Full Stack Development</h5>
-                        <p class="mb-4 text-base">
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                        </p>
-                    </div>
-                </div>
-
-                <div className="block rounded-lg bg-white shadow-secondary-1">
-                    <img className="rounded-t-lg" src={DataStructs} alt="" />
-                    <div class="p-6 text-surface">
-                        <h5 class="mb-2 text-xl font-medium leading-tight text-gray-800">Data Structures and Algorithms</h5>
-                        <p class="mb-4 text-base">
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                        </p>
-                    </div>
-                </div>
-
-                   {/* TEAMWORK */}
-                <div className="block rounded-lg bg-white shadow-secondary-1">
-                    <img className="rounded-t-lg" src={Teamwork} alt="" />
-                    <div class="p-6 text-surface">
-                        <h5 class="mb-2 text-xl font-medium leading-tight text-gray-800">Teamwork</h5>
-                        <p class="mb-4 text-base">
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                        </p>
-                    </div>
-                </div>
-
-                <div className="block rounded-lg bg-white shadow-secondary-1">
-                    <img className="rounded-t-lg max-h-70 w-full" src={Database} alt="databases" />
-                    <div class="p-6 text-surface">
-                        <h5 class="mb-2 text-xl font-medium leading-tight text-gray-800">Database Management</h5>
-                        <p class="mb-4 text-base">
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                        </p>
-                    </div>
-                </div>
-                
-                <div className="block rounded-lg bg-white shadow-secondary-1">
-                    <img className="rounded-t-lg" src={Backend} alt="" />
-                    <div class="p-6 text-surface">
-                        <h5 class="mb-2 text-xl font-medium leading-tight text-gray-800">AWS Suite</h5>
-                        <p class="mb-4 text-base">
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                        </p>
-                    </div>
-                </div>
-              
-
-
-
-                {/* TIME MANAGEMENT */}
-                <div className="block rounded-lg bg-white shadow-secondary-1">
-                    <img className="rounded-t-lg" src={TimeManagement} alt="" />
-                    <div class="p-6 text-surface">
-                        <h5 class="mb-2 text-xl font-medium leading-tight text-gray-800">Time Management</h5>
-                        <p class="mb-4 text-base">
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                        </p>
-                    </div>
-                </div>
-
-                <div className="block rounded-lg bg-white shadow-secondary-1">
-                    <img className="rounded-t-lg min-h-70 max-h-70 w-full" src={Agile} alt="" />
-                    <div class="p-6 text-surface">
-                        <h5 class="mb-2 text-xl font-medium leading-tight text-gray-800">Agile Software Principles</h5>
-                        <p class="mb-4 text-base">
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                        </p>
-                    </div>
-                </div>
-              
-            </div>
-
-
-
-
-
        </div>
     )
 }
