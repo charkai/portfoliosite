@@ -32,16 +32,19 @@ const About = () => {
                 
                 <div className="bg-white border border-gray-200 rounded-lg shadow flex w-full mb-4">
                     <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg" src={ReactSkills} alt="photo"></img>
-                    <div className="flex flex-col justify-between p-4 leading-normal">
+                    <div className="flex flex-col p-4 leading-normal">
                         <h3 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-800">React and Modern Frameworks</h3>
-                        <p className="mb-3 font-normal text-xl text-gray-700">I slay at react</p>
+                        <p className="mb-3 font-normal text-sm text-gray-700">
+                            I enjoy frontend design using modern frameworks and libraries such as Laravel and React.
+                            These controllers 
+                        </p>
                     </div>
                 </div>
 
 
                 <div className="bg-white border border-gray-200 rounded-lg shadow flex w-full mb-4">
                     <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg" src={PresentationSkills} alt="photo"></img>
-                    <div className="flex flex-col justify-between p-4 leading-normal">
+                    <div className="flex flex-col p-4 leading-normal">
                         <h3 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-800">Communication Skills</h3>
                         <p className="mb-3 font-normal text-xl text-gray-700">I love to yap</p>
                     </div>
