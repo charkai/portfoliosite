@@ -3,6 +3,8 @@ import './App.css';
 import Navbar from './shared-components/Navbar';
 import Home from './Home';
 import About from './About';
+import Experience from './Experience';
+import Projects from './Projects';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
+              <Route path="/experience" element={<Experience/>} />
+              <Route path="/projects" element={<Projects/>} />
             </Routes>
           </Router>
       </header>
