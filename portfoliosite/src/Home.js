@@ -8,7 +8,7 @@ const Home = () => {
     const fadeInUpStyle = useFadeInUp();
     return (
         
-        <animated.div style={fadeInUpStyle} className="flex items-center justify-between p-8 h-screen">
+        <animated.div style={fadeInUpStyle} className="flex items-center justify-between p-8">
         {/* Text Section */}
         <div className="flex-1 pr-8">
             <h1 className="text-5xl font-bold mb-4 text-gray-700">Hi! I'm Charlie Kairaitis</h1>
@@ -50,7 +50,7 @@ const Home = () => {
         <div className="flex-1 flex justify-center items-center">
           <Lottie animationData={animationData} loop={true} className="w-full" />
         </div>
-      </animated.div>
+        </animated.div>
     )
 }
 

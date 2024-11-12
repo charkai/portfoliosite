@@ -73,15 +73,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="bg-white border border-gray-200 rounded-lg shadow flex w-full mb-4">
-                    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg" src={Teamwork} alt="photo"></img>
-                    <div className="flex flex-col p-4 leading-normal">
-                        <h3 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-800">Teamwork</h3>
-                        <p className="mb-3 font-normal text-sm text-gray-700">
-                            I love working in a team
-                        </p>
-                    </div>
-                </div>
+               
 
                 <div className="bg-white border border-gray-200 rounded-lg shadow flex w-full mb-4">
                     <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg" src={Frontend} alt="photo"></img>
@@ -93,15 +85,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="bg-white border border-gray-200 rounded-lg shadow flex w-full mb-4">
-                    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg" src={DataStructs} alt="photo"></img>
-                    <div className="flex flex-col p-4 leading-normal">
-                        <h3 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-800">Data Structures and Algorithms</h3>
-                        <p className="mb-3 font-normal text-sm text-gray-700">
-                            I love data structures
-                        </p>
-                    </div>
-                </div>
+                
 
                 
                 <div className="bg-white border border-gray-200 rounded-lg shadow flex w-full mb-4">
@@ -110,6 +94,26 @@ const About = () => {
                         <h3 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-800">React and Modern Frameworks</h3>
                         <p className="mb-3 font-normal text-sm text-gray-700">
                             I enjoy frontend design using modern frameworks and libraries such as Laravel and React.
+                        </p>
+                    </div>
+                </div>
+
+                <div className="bg-white border border-gray-200 rounded-lg shadow flex w-full mb-4">
+                    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg" src={Teamwork} alt="photo"></img>
+                    <div className="flex flex-col p-4 leading-normal">
+                        <h3 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-800">Teamwork</h3>
+                        <p className="mb-3 font-normal text-sm text-gray-700">
+                            I love working in a team
+                        </p>
+                    </div>
+                </div>
+
+                <div className="bg-white border border-gray-200 rounded-lg shadow flex w-full mb-4">
+                    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg" src={DataStructs} alt="photo"></img>
+                    <div className="flex flex-col p-4 leading-normal">
+                        <h3 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-800">Data Structures and Algorithms</h3>
+                        <p className="mb-3 font-normal text-sm text-gray-700">
+                            I love data structures
                         </p>
                     </div>
                 </div>
