@@ -9,10 +9,14 @@ import DataStructs from "./assets/datastructsandalgos.svg";
 import Backend from "./assets/programming.svg";
 import ReactSkills from "./assets/react.svg";
 import TimeManagement from "./assets/timemanagement.svg";
+import { animated } from '@react-spring/web';
+import { useFadeIn, useFadeInUp } from './shared-components/Animations';
 
 const About = () => {
+
+    const fadeInUpStyle = useFadeInUp();
     return (
-        <div className="bg-gray-100 w-full flex flex-col items-center px-10 md:px-40 pt-40">
+        <animated.div style={fadeInUpStyle} className="bg-gray-100 w-full flex flex-col items-center px-10 md:px-40 pt-40">
             {/* ABOUT ME CARD */}
 
             <div className="bg-white border border-gray-200 rounded-lg shadow flex mb-10">
@@ -122,7 +126,7 @@ const About = () => {
                 </div>
 
             </div>
-       </div>
+        </animated.div>
     )
 }
 
