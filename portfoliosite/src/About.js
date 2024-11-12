@@ -10,7 +10,7 @@ import Backend from "./assets/programming.svg";
 import ReactSkills from "./assets/react.svg";
 import TimeManagement from "./assets/timemanagement.svg";
 import { animated } from '@react-spring/web';
-import { useFadeIn, useFadeInUp } from './shared-components/Animations';
+import { useFadeInUp } from './shared-components/Animations';
 
 const About = () => {
 

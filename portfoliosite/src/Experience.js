@@ -1,12 +1,18 @@
 import React from 'react';
+import { animated } from '@react-spring/web';
+import { useFadeInUp } from './shared-components/Animations';
+
 
 const Experience = () => {
 
-    // https://cruip.com/3-examples-of-brilliant-vertical-timelines-with-tailwind-css/
     // Inspo from 
+    // https://cruip.com/3-examples-of-brilliant-vertical-timelines-with-tailwind-css/
+
+
+    const fadeInUpStyle = useFadeInUp();
 
     return (
-    <div className="flex flex-col px-10 md:px-40 pt-40 justify-start">
+    <animated.div style={fadeInUpStyle} className="flex flex-col px-10 md:px-40 pt-40 justify-start">
 
 
         <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">Professional Experience</h1>
@@ -110,7 +116,7 @@ const Experience = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </animated.div>
     );
 }
 export default Experience;

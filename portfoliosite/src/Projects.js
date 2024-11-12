@@ -1,8 +1,11 @@
 import React from 'react';
+import { animated } from '@react-spring/web';
+import { useFadeInUp } from './shared-components/Animations';
 
 const Projects = () => {
+    const fadeInUpStyle = useFadeInUp();
     return (
-        <div className="bg-gray-100 w-full flex flex-col items-center px-10 md:px-40 pt-10">
+        <animated.div style={fadeInUpStyle} className="bg-gray-100 w-full flex flex-col items-center px-10 md:px-40 pt-10">
 
             <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl pb-10">Projects</h1>
             
@@ -44,7 +47,7 @@ const Projects = () => {
 
             </div>
 
-       </div>
+       </animated.div>
     )
 }
 
