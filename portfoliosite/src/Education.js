@@ -14,6 +14,7 @@ const Education = () => {
     return (
         <animated.div style={fadeInUpStyle} className="bg-gray-100 w-full flex flex-col items-center px-10 md:px-40 pt-40">
             {/* ABOUT ME CARD */}
+            {/* animation is going to messed up untril there is a scroll */}
 
             <div className="bg-white border border-gray-200 rounded-lg shadow flex mb-10">
                 <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg" alt="photo"></img>
