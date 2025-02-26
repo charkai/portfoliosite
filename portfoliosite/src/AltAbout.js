@@ -14,62 +14,68 @@ import Modal from './shared-components/Modal'
 import { animated } from '@react-spring/web';
 import { useFadeInUp } from './shared-components/Animations';
 
-
-
 const AltAbout = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [modalContent, setModalContent] = useState("");
     const [modalTitle, setModalTitle] = useState("")
-
+    const [modalIcon, setModalIcon] = useState(null)
 
     const skills = [
         {
             "title": "Database Management",
-            "content": "Not written yet"
+            "content": "Not written yet",
+            "icon": Database
         },
         {
             "title": "AWS Suite",
-            "content": "Not written yet"
+            "content": "Not written yet",
+            "icon": Backend
         },
         {
             "title": "Agile Software Development",
-            "content": "Not written yet"
+            "content": "Not written yet",
+            "icon": Agile
         },
         {
             "title": "Time Management",
-            "content": "Not writte yet"
+            "content": "Not writte yet",
+            "icon": TimeManagement
         },
         {
             "title": "Full Stack Development",
-            "content": "Not written yet"
+            "content": "Not written yet",
+            "icon": Frontend
         }, 
         {
             "title": "Modern Frameworks and Libraries",
-            "content": "Not written yet"
+            "content": "Not written yet",
+            "icon": ReactSkills
         }, 
         {
             "title": "Teamwork and Interdisciplinary Collaboration",
-            "content": "Not written yet"
+            "content": "Not written yet",
+            "icon": Teamwork
         },
         {
             "title": "Data Structures and Algorithms",
-            "content": "Not written yet"
+            "content": "Not written yet",
+            "icon": DataStructs
         }, 
         {
             "title": "Communication Skills",
-            "content": "Not written yet"
+            "content": "Not written yet",
+            "icon": PresentationSkills
         }
     ]
 
     const handleTileClick = (skill) => {
         setModalTitle(skill.title)
         setModalContent(skill.content);
+        setModalIcon(skill.icon)
         setIsModalOpen(true);
     };
 
     const fadeInUpStyle = useFadeInUp();
-
-
 
     // const skills = ["Database Management", "AWS Suite", "Agile Software Development", "Time Management", "Full Stack Development", "Modern Frameworks and Libraries", "Teamwork and Interdisciplinary Collaboration", "Data Structures and Algorithms", "Communication Skills"];
     return (
@@ -77,7 +83,7 @@ const AltAbout = () => {
             {/* ABOUT ME CARD */}
 
             <div className="bg-white border border-gray-200 rounded-lg shadow flex mb-10">
-                <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg" src={Headshot} alt="photo"></img>
+                <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg" src={Headshot} alt="selfie"></img>
                 <div className="flex flex-col justify-between p-4 leading-normal">
                     {/* <h3 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-800 md:text-5xl lg:text-6xl">About Me</h3> */}
                     <p className="mb-3 font-normal text-xl text-gray-700">Hi, I'm Charlie! I'm a full-time student with a passion for escape rooms, trivia nights, history podcasts, Ultimate Frisbee, Football and Formula 1. In my engineering degree and career thus far, I have gained a strong foundation with a range of computer science fundamentals - including object-oriented programming with Java, memory management in C, databases with SQL, and front-end development skills with JQuery, HTML and Laravel, which I was lucky enough to learn during my internship at revolutioniseSport. In the Psychology component of my degree, I have gained exposure to several disciplines. I am particularly fascinated by neuroscience and cognition, and I would love to one day work in a field that combines the best elements of both of my courses, such as AI or cybersecurity.</p>
@@ -95,6 +101,7 @@ const AltAbout = () => {
             <Modal
                 title={modalTitle}
                 content={<p className="text-base text-gray-500 leading-relaxed">{modalContent}</p>}
+                icon={modalIcon}
                 isOpen={isModalOpen}
                 onClose={() => setIsModalOpen(false)}
             />

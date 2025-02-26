@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const Modal = ({ title, content, isOpen, onClose }) => {
+const Modal = ({ title, content, icon, isOpen, onClose }) => {
     useEffect(() => {
         if (isOpen) {
             document.body.classList.add("overflow-hidden");
@@ -14,7 +14,7 @@ const Modal = ({ title, content, isOpen, onClose }) => {
     return (
         <div className="fixed inset-0 z-50 flex justify-center items-center bg-black bg-opacity-50">
             <div className="relative p-4 w-full max-w-2xl bg-white rounded-lg shadow dark:bg-gray-700">
-                {/* Modal Header */}
+                
                 <div className="flex items-center justify-between p-4 border-b rounded-t dark:border-gray-600 border-gray-200">
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
                         {title}
@@ -30,10 +30,16 @@ const Modal = ({ title, content, isOpen, onClose }) => {
                     </button>
                 </div>
 
-     
-                <div className="p-4 space-y-4">
-                    {content}
+                <div className="flex mb-10 mt-10">
+                    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg" src={icon} alt="icon"></img>
+                    <div className="flex flex-col justify-between p-4 leading-normal">
+                        {/* <h3 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-800 md:text-5xl lg:text-6xl">About Me</h3> */}
+                        <p className="p-4 space-y-4">
+                            {content}
+                        </p>
+                    </div>
                 </div>
+
             </div>
         </div>
     );
