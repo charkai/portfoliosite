@@ -8,6 +8,7 @@ import Experience from './Experience';
 import Projects from './Projects';
 import Education from './Education';
 import AltAbout from './AltAbout';
+import ScrollToTop from './shared-components/ScrollToTop';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <div className="App bg-gray-100">
       <header className="App-header">
           <Router>
+            <ScrollToTop/>
             <Navbar/>
             <Routes>
               <Route path="/" element={<Home />} />
