@@ -5,7 +5,7 @@ import TimelineElement from './shared-components/TimelineElement';
 import VolunteeringTile from './shared-components/VolunteeringTile';
 
 const Experience = () => {
-
+    // DATA 
     const workExperience = [
         {
             "company":"Mastercard",
@@ -55,10 +55,11 @@ const Experience = () => {
 
     ]
 
-    // Inspo from 
-    // https://cruip.com/3-examples-of-brilliant-vertical-timelines-with-tailwind-css/
+    // Animation style
     const fadeInUpStyle = useFadeInUp();
 
+    // Inspo of timeline from 
+    // https://cruip.com/3-examples-of-brilliant-vertical-timelines-with-tailwind-css/
     return (
     <animated.div style={fadeInUpStyle} className="flex flex-col px-10 md:px-40 pt-40 justify-start">
         

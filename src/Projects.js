@@ -3,6 +3,9 @@ import { animated } from '@react-spring/web';
 import { useFadeInUp } from './shared-components/Animations';
 
 const Projects = () => {
+
+
+    // Animation style 
     const fadeInUpStyle = useFadeInUp();
     return (
         <animated.div style={fadeInUpStyle} className="bg-gray-100 w-full flex flex-col items-center px-10 md:px-40 pt-40">
