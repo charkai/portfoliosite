@@ -1,23 +1,19 @@
 import { useEffect } from "react";
 
 const Modal = ({ title, content, icon, isOpen, onClose }) => {
-    // useEffect(() => {
-    //     if (isOpen) {
-    //         document.body.classList.add("overflow-hidden");
-    //     } else {
-    //         document.body.classList.remove("overflow-hidden");
-    //     }
-    // }, [isOpen]);
+    useEffect(() => {
+        if (isOpen) {
+            document.body.classList.add("overflow-hidden");
+        } else {
+            document.body.classList.remove("overflow-hidden");
+        }
+    }, [isOpen]);
 
     if (!isOpen) return null;
 
     return (
-    
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 min-h-screen">
-
-            <div className="relative mt-40 p-6 w-auto max-w-2xl bg-white rounded-lg shadow-lg dark:bg-gray-700">
-
-                
+        <div className="fixed inset-0 z-50 bg-black bg-opacity-50 flex items-center justify-center h-screen">
+            <div className="bg-white rounded-lg shadow-sm max-w-2xl dark:bg-gray-700">
                 <div className="flex items-center justify-between p-4 border-b rounded-t dark:border-gray-600 border-gray-200">
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
                         {title}
@@ -32,19 +28,18 @@ const Modal = ({ title, content, icon, isOpen, onClose }) => {
                         <span className="sr-only">Close modal</span>
                     </button>
                 </div>
-
-                <div className="flex mb-10 mt-10">
-                    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg" src={icon} alt="icon"></img>
+                <div className="flex flex-col md:flex-row mb-10 mt-10">
+                    <img className="object-cover w-full p-4 rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg" src={icon} alt="icon"></img>
                     <div className="flex flex-col justify-between p-4 leading-normal">
                         <p className="p-4 space-y-4">
                             {content}
                         </p>
                     </div>
                 </div>
+             </div>
 
-            </div>
         </div>
-    );
+    )
 };
 
 export default Modal;
