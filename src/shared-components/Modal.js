@@ -12,7 +12,7 @@ const Modal = ({ title, content, icon, isOpen, onClose }) => {
     if (!isOpen) return null;
 
     return (
-        <div className="fixed inset-0 z-50 bg-black bg-opacity-50 flex items-center justify-center h-screen">
+        <div className="fixed inset-0 z-50 bg-black bg-opacity-50 flex items-center justify-center h-screen max-h-screen overflow-scroll p-10">
             <div className="bg-white rounded-lg shadow-sm max-w-2xl dark:bg-gray-700">
                 <div className="flex items-center justify-between p-4 border-b rounded-t dark:border-gray-600 border-gray-200">
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
@@ -28,8 +28,8 @@ const Modal = ({ title, content, icon, isOpen, onClose }) => {
                         <span className="sr-only">Close modal</span>
                     </button>
                 </div>
-                <div className="flex flex-col md:flex-row mb-10 mt-10">
-                    <img className="object-cover w-full p-4 rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg" src={icon} alt="icon"></img>
+                <div className="flex flex-col md:flex-row mb-10 mt-10 overflow-y-auto max-h-[70vh] ">
+                <img className="object-cover w-full max-w-xs p-4 max-h-50 rounded-t-lg h-96 h-auto md:w-80 md:max-h-none md:rounded-none md:rounded-s-lg" src={icon} alt="icon" />
                     <div className="flex flex-col justify-between p-4 leading-normal">
                         <p className="p-4 space-y-4">
                             {content}
