@@ -5,6 +5,7 @@ import Agile from "./assets/agile.svg";
 import Teamwork from "./assets/teamwork.svg";
 import PresentationSkills from "./assets/presentationskills.svg";
 import Frontend from "./assets/frontend.svg";
+import Cloud from "./assets/cloud.svg";
 import DataStructs from "./assets/datastructsandalgos.svg";
 import Backend from "./assets/programming.svg";
 import ReactSkills from "./assets/react.svg";
@@ -25,11 +26,6 @@ const AltAbout = () => {
             "title": "Database Management",
             "content": "I have extensive proficiency in working with data. I am confident with advanced SQL (mainly PostgreSQL and MySQL) through the entire data lifecycle including creating tables, inserting data, modifying and manipulating data as well as removal and deletion.",
             "icon": Database
-        },
-        {
-            "title": "AWS Suite",
-            "content": "Not written yet",
-            "icon": Backend
         },
         {
             "title": "Agile Software Development",
@@ -65,7 +61,17 @@ const AltAbout = () => {
             "title": "Communication Skills",
             "content": "Not written yet",
             "icon": PresentationSkills
-        }
+        },
+        {
+            "title": "CI/CD practices",
+            "content": "I have gained substantial experience with Continuous Integration and Continuous Delivery. I am proficient in writing .yaml files and using automated deployment such as through Github Actions and Bitbucket Pipelines. ",
+            "icon": Backend
+        },
+        {
+            "title": "Cloud Services",
+            "content": "I have gained substantial experience with Continuous Integration and Continuous Delivery. I am proficient in writing .yaml files and using automated deployment such as through Github Actions and Bitbucket Pipelines. ",
+            "icon": Cloud
+        },
     ]
 
     const handleTileClick = (skill) => {
