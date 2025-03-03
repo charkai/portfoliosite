@@ -103,7 +103,7 @@ const AltAbout = () => {
                     <Tile key={index} title={skill.title} onClick={() => handleTileClick(skill)} />
                 ))}
             </div>
-            
+           
             <Modal
                 title={modalTitle}
                 content={<p className="text-base text-gray-500 leading-relaxed">{modalContent}</p>}
@@ -111,7 +111,8 @@ const AltAbout = () => {
                 isOpen={isModalOpen}
                 onClose={() => setIsModalOpen(false)}
             />
-      
+            
+    
         </animated.div>
     )
 }
