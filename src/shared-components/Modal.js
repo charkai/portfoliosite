@@ -13,7 +13,7 @@ const Modal = ({ title, content, icon, isOpen, onClose }) => {
     
     return (
         <div className="fixed inset-0 z-50 bg-black bg-opacity-50 flex items-center justify-center h-screen max-h-screen overflow-scroll p-10">
-            <div className="bg-white rounded-lg shadow-sm max-w-2xl dark:bg-gray-700">
+            <div className="bg-white rounded-lg shadow-sm max-w-3xl dark:bg-gray-700">
                 <div className="flex items-center justify-between p-4 border-b rounded-t dark:border-gray-600 border-gray-200">
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
                         {title}
