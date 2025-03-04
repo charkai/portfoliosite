@@ -106,7 +106,7 @@ const Education = () => {
                         image={education.image}
                         imageAlt={education.imageAlt}
                         institution={education.institution}
-
+                        info={education.info}
 
                         stat={education.stat}
                         statContext={education.statContext}

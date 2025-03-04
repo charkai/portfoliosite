@@ -1,11 +1,11 @@
-const EducationCard = ({ image, imageAlt, institution, stat, statContext}) => {
+const EducationCard = ({ image, imageAlt, institution, info, stat, statContext}) => {
   return (
     <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
       <img className="rounded-t-lg h-80" src={image} alt={imageAlt} />
 
       <div className="p-5">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{institution}</h5>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{info}</p>
 
         <div className="block">
           <div

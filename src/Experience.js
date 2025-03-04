@@ -90,7 +90,7 @@ const Experience = () => {
         {/* Volunteering */}
         <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">Volunteering</h1>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pb-20 pt-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pb-20 pt-10 md:pt-20">
             {volunteeringExperience.map((volunteerRole, index) => (
                 <VolunteeringTile 
                     key={index} 
