@@ -7,12 +7,42 @@ const Projects = () => {
     // DATA
     const projects = [
         {
+            "projectName": "This Site - Portfolio",
+            "info": "dev",
+            "skillsInvolved": ["React"],
+            "externalLinkName": "Github",
+            "externalLinkAddress": "www.google.com"
+        },   
+        {
             "projectName": "Battle Game",
             "info": "My first ever project: a text-based battle game",
             "skillsInvolved": ["Backend Development", "Python", "Programming Fundamentals"],
             "externalLinkName": "Github",
             "externalLinkAddress": "www.google.com"
-        }        
+        },
+        {
+            "projectName": "Pool Game",
+            "info": "An early Java project creating a game of pool",
+            "skillsInvolved": ["Java"],
+            "externalLinkName": "Github",
+            "externalLinkAddress": "www.google.com"
+        },
+        {
+            "projectName": "Bomb Game",
+            "info": "Java",
+            "skillsInvolved": ["Java"],
+            "externalLinkName": "Github",
+            "externalLinkAddress": "www.google.com"
+        },
+
+        {
+            "projectName": "C - In the Mist",
+            "info": "C programming",
+            "skillsInvolved": ["Java"],
+            "externalLinkName": "Github",
+            "externalLinkAddress": "www.google.com"
+        }
+
     ]
 
     // Animation style 
