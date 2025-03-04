@@ -7,6 +7,7 @@ import Experience from './Experience';
 import Projects from './Projects';
 import Education from './Education';
 import ScrollToTop from './shared-components/ScrollToTop';
+import NotFound from './NotFound'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
               <Route path="/experience" element={<Experience/>} />
               <Route path="/projects" element={<Projects/>} />
               <Route path="/education" element={<Education/>} />
+              <Route path="*" element={<NotFound/>} /> 
             </Routes>
           </Router>
       </header>
