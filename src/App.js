@@ -15,8 +15,8 @@ function App() {
     <div className="App bg-gray-100">
       <header className="App-header">
           <Router>
-            <ScrollToTop/>
             <Navbar/>
+            <ScrollToTop/>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
