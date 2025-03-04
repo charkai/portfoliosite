@@ -117,7 +117,7 @@ const Education = () => {
 
             {/* AWARDS */}
 
-            <h1 class="mb-4 mt-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">Awards</h1>
+            <h1 class="mb-8 mt-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">Awards</h1>
 
                 <ul class="px-10 mb-10 bg-white border border-gray-200 rounded-lg shadow divide-y divide-gray-200 dark:divide-gray-700 max-w-full">
                     {awards.map((award, index) => (

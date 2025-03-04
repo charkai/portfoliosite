@@ -1,7 +1,7 @@
 const Award = ({awardName, awardDetails, awardDate}) => {
 
     return (
-        <li class="pb-3 sm:pb-4 pt-3">
+        <li class="pb-3 sm:pb-4 pt-3 pr-4">
         <div className="flex items-center space-x-4">
             <div class="shrink-0">
                 <svg class="pt-3 w-12 h-12 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" viewBox="0 0 24 24">
