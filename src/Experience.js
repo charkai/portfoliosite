@@ -12,28 +12,29 @@ const Experience = () => {
             "role":"Software Engineering Intern",
             "startDate":"Dec 2024",
             "endDate":"Jan 2025",
-            "info":"Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit cursus risus."
+            "info": "8-week internship program at the Sydney Tech Hub, as a full-stack engineer. Within the performance engineering team, I utilised Vue.js, Express, Tailwind CSS and PostgreSQL to enhance web application features used by global Mastercard teams to monitor and test features developed. In addition, I worked with Python and the Confluence and Jenkins APIs to automate documentation processes for engineering teams."
+            
         },
         {
             "company":"Sportsgrid",
             "role":"Software Engineering Intern",
             "startDate":"Dec 2022",
             "endDate":"Feb 2023",
-            "info":"Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit cursus risus."
+            "info":"12-week full-stack engineering intern, modernising the flagship revolutioniseSport software to utilise the Laravel framework and improve maintainability and extensibility with a Model-View-Controller architecture. Engagement with Agile software development processes, including scrums, code review, pair programming, testing and demos, as well as proficiency with version control tools in a large development team. Building interactive, aesthetic and functional user interfaces with Bootstrap, Tailwind CSS, JQuery and HTML."
         },
         {
             "company":"Sydney University Women in Engineering",
             "role":"Vice President",
             "startDate":"Sep 2022",
             "endDate":"Aug 2023",
-            "info":"Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit cursus risus."
+            "info":"Executive leader of a society with over 500 student members and 15+ industry sponsors. Oversaw Professional Engagement Program, involving coordinating and emceeing fortnightly workshops with 15+ sponsor organisations. Primary coordinator for events attended by over 200 students and industry representatives, and convenor of weekly meetings with executive committee. Designing, ordering and organising distribution of annual merch such as shirts and bucket hats."
         },
         {
             "company":"Sydney University Women in Engineering",
             "role":"Junior Vice President",
             "startDate":"Sep 2021",
             "endDate":"Sep 2022",
-            "info":"Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit cursus risus."
+            "info":"Directly responsible for writing and overseeing the fortnightly newsletter distributed to over 500 students, organising and planning student events, liasing with other members of the executive of 10+ students, and emceeing industry panels."
         }
     ]
 
