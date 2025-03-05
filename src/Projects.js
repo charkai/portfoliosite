@@ -7,40 +7,40 @@ const Projects = () => {
     // DATA
     const projects = [
         {
-            "projectName": "This Site - Portfolio",
-            "info": "dev",
-            "skillsInvolved": ["React"],
+            "projectName": "This Portfolio Site",
+            "info": "A portfolio I created in order to showcase my development skills and work.",
+            "skillsInvolved": ["React.js", "HTML", "Tailwind CSS"],
             "externalLinkName": "Github",
-            "externalLinkAddress": "www.google.com"
+            "externalLinkAddress": "https://github.com/charkai/portfoliosite"
         },   
         {
             "projectName": "Battle Game",
-            "info": "My first ever project: a text-based battle game",
+            "info": "My first ever project: a battle game run through the command line.",
             "skillsInvolved": ["Backend Development", "Python", "Programming Fundamentals"],
             "externalLinkName": "Github",
-            "externalLinkAddress": "www.google.com"
+            "externalLinkAddress": "https://github.com/charkai/Python_BattleGame"
         },
         {
             "projectName": "Pool Game",
-            "info": "An early Java project creating a game of pool",
-            "skillsInvolved": ["Java"],
+            "info": "An early Java project - designing a pop-up game of pool, utilising Gradle and JavaFX.",
+            "skillsInvolved": ["Object-Oriented Programming", "Java", "JavaFX and GUI Design"],
             "externalLinkName": "Github",
-            "externalLinkAddress": "www.google.com"
+            "externalLinkAddress": "https://github.com/charkai/Java_poolgame"
         },
         {
             "projectName": "Bomb Game",
-            "info": "Java",
-            "skillsInvolved": ["Java"],
+            "info": "Another early Java project designing a game with Java, Gradle and Processing.",
+            "skillsInvolved": ["Object-Oriented Programming", "Java", "Processing", "Gradle"],
             "externalLinkName": "Github",
-            "externalLinkAddress": "www.google.com"
+            "externalLinkAddress": "https://github.com/charkai/java_bombgame"
         },
 
         {
             "projectName": "C - In the Mist",
-            "info": "C programming",
-            "skillsInvolved": ["Java"],
+            "info": "A 2 player game built in C - a game of Gomuku but with the added element of a 'mist'.",
+            "skillsInvolved": ["C Programming", "Systems Programming", "Dynamic Memory"],
             "externalLinkName": "Github",
-            "externalLinkAddress": "www.google.com"
+            "externalLinkAddress": "https://github.com/charkai/C_mistgame"
         }
 
     ]
