@@ -11,7 +11,7 @@ const Award = ({awardName, awardDetails, awardDate}) => {
                 </svg>
             </div>
             <div class="flex-1 min-w-0">
-                <p class="text-sm font-medium text-gray-900 dark:text-white text-left">
+                <p class="mt-2 text-sm font-medium text-gray-900 dark:text-white text-left">
                     {awardName}
                 </p>
                 <p class="text-sm text-gray-500 dark:text-gray-400 text-left">
