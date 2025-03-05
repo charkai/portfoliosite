@@ -42,42 +42,42 @@ const AltAbout = () => {
         }, 
         {
             "title": "Modern Frameworks and Libraries",
-            "content": "Not written yet",
+            "content": "In my studies and experience in the industry, I have had the chance to be exposed to various modern frameworks and libraries, including Vue.js, Laravel, and React.js, for dynamic and responsive web application design. I have had the opportunity to improve my skills in constructing reusable, maintainble and efficient code, that also emphasises a quality user experience.",
             "icon": ReactSkills
         }, 
         {
             "title": "Teamwork and Interdisciplinary Collaboration",
-            "content": "Not written yet",
+            "content": "I love to work in a team, combining the strengths of individuals from multiple backgrounds and disciplines. Through various group-based university and industry projects, I am confident using collaborative tools such as version control through Git as well as documentation and planning software such as Confluence and Jira.",
             "icon": Teamwork
         },
         {
             "title": "Data Structures and Algorithms",
-            "content": "Not written yet",
+            "content": "I have gained an in-depth exposure to using data structures and algorithms to optimise data structures and processes. I am skilled in designing algorithms and leveraging the benefits of several data structures for common processes such as searching, sorting, and various computational tasks. This knowledge allows me to write efficient and reusable code.",
             "icon": DataStructs
         }, 
         {
             "title": "Communication Skills",
-            "content": "Not written yet",
+            "content": "I have developed expertise in my written and verbal communication skills, allowing me to effectively report on, discuss and improve ideas and implementations. I consider myself adept in explaining technical concepts to non-technical parties, to facilitate better collaboration. I respond positively to constructive feedback in order to better my individual and team-based work.",
             "icon": CommunicationSkills
         },
         {
             "title": "CI/CD practices",
-            "content": "I have gained substantial experience with Continuous Integration and Continuous Delivery. I am proficient in writing .yaml files and using automated deployment such as through Github Actions and Bitbucket Pipelines. ",
+            "content": "I have gained substantial experience with Continuous Integration and Continuous Delivery. Working on industry-scale projects with large teams, I learned the importance of continuously checking in and out with the main branch due to constantly evolving changes. I am proficient in writing .yaml files and using automated deployment such as through Github Actions and Bitbucket Pipelines. ",
             "icon": Backend
         },
         {
             "title": "Cloud Services",
-            "content": "Not written yet",
+            "content": "I have proficiency with using Amazon Web Services- including EC2, S3, Cloudfront, RDS, ECS and Elastic Load Balancer - for deploying full-stack web applications. My experience with Linux has allowed me to seamlessly set up and configure cloud-based servers, such as setting up Nginx as a reverse proxy.",
             "icon": Cloud
         },
         {
             "title": "Version Control",
-            "content": "Not written yet",
+            "content": "My skills include managing code repositories, branching and merging, and collaborating with a team through code review and pull requests. I utilise Git in personal and grou-based projects to track changes, maintain code integrity, and ensure seamless integration of new features. These skills enable efficient and successful development projects.",
             "icon": VersionControl
         },
         {
             "title": "Presentation Skills",
-            "content": "Not written yet",
+            "content": "I enjoy the opportunity to present to others, as I am proud to showcase my work and enjoy the opportunity to listen and respond to feedback. I create engaging presentations that communicate project objectives, status and deliverables, with the ability to do so in a way that can be specific either to technical and non-technical parties.",
             "icon": PresentationSkills
         },
     ]
