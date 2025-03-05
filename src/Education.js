@@ -78,7 +78,7 @@ const Education = () => {
             "awardDate": "2020"
         },
         {
-            "awardName": "Prescott Medal for",
+            "awardName": "Prescott Medal",
             "awardDetails": "Awarded for achieving Highest Tertiary Admissions Rank (99.95).",
             "awardDate": "2020"
         },
