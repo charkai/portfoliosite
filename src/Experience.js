@@ -50,7 +50,7 @@ const Experience = () => {
             "name": "The Greyhound Rescue",
             "startDate": "2024",
             "endDate": "current",
-            "info": "HELLo",
+            "info": "As a volunteer kennel hand at the Greyhound Rescue, I assist at the shelter with general caretaking duties, involving cleaning, feeding, walking, providing enrichment for and taking care of the dogs for 4 hours in the morning or afternoon, typically 2-4 times per month. The kennel at the Greyhound Rescue is a crucial part in allowing for the loving rehabilitation and socialisation of rescued greyhounds, before they are able to be rehomed to the right family. I love the opportunity to play a part in the journey of these gentle and gorgeous dogs, and to work with and around other like-minded people.",
             "link": "https://greyhoundrescue.com.au/?gad_source=1&gclid=CjwKCAiAw5W-BhAhEiwApv4goCTWzUnHTQ4y74jf7yUrxjSYEBuoGncX5_UZMsxUuIYsVV6mHmrJ0RoCUwIQAvD_BwE"
         }
 

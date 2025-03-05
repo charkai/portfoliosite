@@ -98,7 +98,7 @@ const Education = () => {
     
             <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">Education</h1>
             
-            {/* TERTIARY EDUCATION */}
+            {/*  EDUCATION */}
             <div className="mt-6 mb-6 grid grid-cols-1 md:grid-cols-3 gap-4">                
                 {educationExperiences.map((education, index) => (
                     <EducationCard 
@@ -116,7 +116,6 @@ const Education = () => {
 
 
             {/* AWARDS */}
-
             <h1 class="mb-8 mt-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">Awards</h1>
 
                 <ul class="px-10 mb-10 bg-white border border-gray-200 rounded-lg shadow divide-y divide-gray-200 dark:divide-gray-700 max-w-full">
@@ -128,106 +127,7 @@ const Education = () => {
                         />
                     ))}
                 </ul>
-            
-
         </animated.div>
     )
 }
-
-
-{/* <ul class="max-w-md divide-y divide-gray-200 dark:divide-gray-700">
-   <li class="pb-3 sm:pb-4">
-      <div class="flex items-center space-x-4 rtl:space-x-reverse">
-         <div class="shrink-0">
-            <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-1.jpg" alt="Neil image">
-         </div>
-         <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
-               Neil Sims
-            </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
-            </p>
-         </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
-            $320
-         </div>
-      </div>
-   </li>
-   <li class="py-3 sm:py-4">
-      <div class="flex items-center space-x-4 rtl:space-x-reverse">
-         <div class="shrink-0">
-            <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Neil image">
-         </div>
-         <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
-               Bonnie Green
-            </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
-            </p>
-         </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
-            $3467
-         </div>
-      </div>
-   </li>
-   <li class="py-3 sm:py-4">
-      <div class="flex items-center space-x-4 rtl:space-x-reverse">
-         <div class="shrink-0">
-            <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-2.jpg" alt="Neil image">
-         </div>
-         <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
-               Michael Gough
-            </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
-            </p>
-         </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
-            $67
-         </div>
-      </div>
-   </li>
-   <li class="py-3 sm:py-4">
-      <div class="flex items-center space-x-4 rtl:space-x-reverse">
-         <div class="shrink-0">
-            <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-5.jpg" alt="Neil image">
-         </div>
-         <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
-               Thomas Lean
-            </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
-            </p>
-         </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
-            $2367
-         </div>
-      </div>
-   </li>
-   <li class="pt-3 pb-0 sm:pt-4">
-      <div class="flex items-center space-x-4 rtl:space-x-reverse">
-         <div class="shrink-0">
-            <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-4.jpg" alt="Neil image">
-         </div>
-         <div class="flex-1 min-w-0">
-            <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
-               Lana Byrd
-            </p>
-            <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-               email@flowbite.com
-            </p>
-         </div>
-         <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
-            $367
-         </div>
-      </div>
-   </li>
-</ul> */}
-
-
-
 export default Education;
