@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import NavLink from './NavLink';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -11,19 +12,22 @@ const Navbar = () => {
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <NavLink to="/" onClick={() => setIsOpen(false)}>Charlie Kairaitis</NavLink>
             <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-              <button 
-                type="button" 
-                className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800"
-              >
-                Contact Me
-              </button>
+              <Link to="/contact" className="mt-1">
+                <button 
+                  onClick={() => setIsOpen(false)}
+                  type="button" 
+                  className="px-4 py-3 text-white cursor-pointer bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm text-center dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800"
+                >
+                  Contact Me
+                </button>
+              </Link>
 
               {/* MOBILE MENU - HAMBURGER */}
               <button 
                 onClick={() => setIsOpen(!isOpen)}
                 data-collapse-toggle="navbar-sticky" 
                 type="button" 
-                className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                className="mt-1 inline-flex items-center  w-10 h-11 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                 aria-controls="navbar-sticky" 
                 aria-expanded={isOpen}
               >
