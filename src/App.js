@@ -5,6 +5,7 @@ import Home from './Home';
 import About from './About';
 import Experience from './Experience';
 import Projects from './Projects';
+import Contact from './Contact'
 import Education from './Education';
 import ScrollToTop from './shared-components/ScrollToTop';
 import NotFound from './NotFound'
@@ -23,6 +24,7 @@ function App() {
               <Route path="/experience" element={<Experience/>} />
               <Route path="/projects" element={<Projects/>} />
               <Route path="/education" element={<Education/>} />
+              <Route path="/contact" element={<Contact/>} />
               <Route path="*" element={<NotFound/>} /> 
             </Routes>
           </Router>

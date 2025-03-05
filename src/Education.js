@@ -82,14 +82,12 @@ const Education = () => {
             "awardDetails": "Awarded for achieving Highest Tertiary Admissions Rank (99.95).",
             "awardDate": "2020"
         },
-        
     ]
 
     // Inspo from 
     // https://cruip.com/3-examples-of-brilliant-vertical-timelines-with-tailwind-css/
 
     const fadeInUpStyle = useFadeInUp();
-
 
     return (
         <animated.div style={fadeInUpStyle} className="bg-gray-100 w-full flex flex-col items-center px-10 md:px-40 pt-40">
