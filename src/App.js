@@ -12,7 +12,7 @@ import NotFound from './NotFound'
 function App() {
   return (
   
-    <div className="App bg-gray-100">
+    <div className="App bg-gray-100 dark:bg-gray-900">
       <header className="App-header">
           <Router>
             <Navbar/>

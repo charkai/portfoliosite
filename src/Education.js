@@ -90,9 +90,9 @@ const Education = () => {
     const fadeInUpStyle = useFadeInUp();
 
     return (
-        <animated.div style={fadeInUpStyle} className="bg-gray-100 w-full flex flex-col items-center px-10 md:px-40 pt-40">
+        <animated.div style={fadeInUpStyle} className="w-full flex flex-col items-center px-10 md:px-40 pt-40">
     
-            <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">Education</h1>
+            <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-gray-100 md:text-5xl lg:text-6xl">Education</h1>
             
             {/*  EDUCATION */}
             <div className="mt-6 mb-6 grid grid-cols-1 md:grid-cols-3 gap-4">                
@@ -114,9 +114,9 @@ const Education = () => {
 
 
             {/* AWARDS */}
-            <h1 class="mb-8 mt-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">Awards</h1>
+            <h1 class="mb-8 mt-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-gray-100 md:text-5xl lg:text-6xl">Awards</h1>
 
-                <ul class="px-10 mb-10 bg-white border border-gray-200 rounded-lg shadow divide-y divide-gray-200 dark:divide-gray-700 max-w-full">
+                <ul class="px-10 mb-10 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow divide-y divide-gray-200 dark:divide-gray-700 max-w-full">
                     {awards.map((award, index) => (
                         <Award 
                         awardName={award.awardName}

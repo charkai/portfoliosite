@@ -102,29 +102,29 @@ const AltAbout = () => {
         <div>
             <Modal
                 title={modalTitle}
-                content={<p className="text-base text-gray-500 leading-relaxed">{modalContent}</p>}
+                content={<p className="text-base text-gray-600 dark:text-gray-400 leading-relaxed">{modalContent}</p>}
                 icon={modalIcon}
                 isOpen={isModalOpen}
                 onClose={() => setIsModalOpen(false)}
             />
 
-            <animated.div style={fadeInUpStyle} className="bg-gray-100 w-full flex flex-col items-center px-10 md:px-40 pt-40">
+            <animated.div style={fadeInUpStyle} className="w-full flex flex-col items-center px-10 md:px-40 pt-40">
                 {/* ABOUT ME CARD */}
-                    <div className="bg-white border border-gray-200 rounded-lg shadow flex flex-col md:flex-row mb-10">
+                    <div className="bg-white border border-gray-200 rounded-lg shadow flex flex-col md:flex-row mb-10 dark:bg-gray-800 dark:border-gray-800">
                         <img
                             className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg"
                             src={Headshot}
                             alt="selfie"
                         />
                         <div className="flex flex-col justify-between p-4 leading-normal">
-                            <p className="mb-3 font-normal text-xl text-gray-700">
+                            <p className="mb-3 font-normal text-xl text-gray-700 dark:text-gray-300">
                             {aboutText}
                             </p>
                         </div>
                     </div>
 
                     {/* SKILLS SECTION */}
-                    <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl pb-10">Skills</h1>
+                    <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl pb-10 dark:text-gray-100">Skills</h1>
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-4 pb-20">
                         {skills.map((skill, index) => (
                             <Tile key={index} title={skill.title} onClick={() => handleTileClick(skill)} />
