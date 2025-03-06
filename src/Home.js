@@ -1,6 +1,7 @@
 import React from 'react';
 import Lottie from 'lottie-react';
 import animationData from './assets/homepageani.json'; 
+import ExternalLinkButton from "./shared-components/ExternalLinkButton";
 import { animated } from '@react-spring/web';
 import { useFadeInUp } from './shared-components/Animations';
 
@@ -42,9 +43,10 @@ const Home = () => {
                 </div>
 
                 <div className="w-full h-auto gap-2 justify-center items-center flex">
-                    <button type="button" className="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">
-                        Download CV 
-                    </button>
+                    <ExternalLinkButton
+                        linkName="Email me"
+                        linkAddress="mailto:cfkairaitis@gmail.com"
+                    />
                 </div>
             </div>
         </div>
