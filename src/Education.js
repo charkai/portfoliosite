@@ -9,7 +9,6 @@ import EducationCard from './shared-components/EducationCard';
 import Award from './shared-components/Award';
 
 const Education = () => {
-    // DATA
     const educationExperiences = [
         {
             "image": USYD,
@@ -45,7 +44,6 @@ const Education = () => {
             "statContext": "ATAR"
         }
     ]
-
     const awards = [
         {
             "awardName": "Chancellor's Award",
@@ -84,21 +82,16 @@ const Education = () => {
         },
     ]
 
-    // Inspo from 
-    // https://cruip.com/3-examples-of-brilliant-vertical-timelines-with-tailwind-css/
-
     const fadeInUpStyle = useFadeInUp();
 
     return (
         <animated.div style={fadeInUpStyle} className="w-full flex flex-col items-center px-10 md:px-40 pt-40">
-    
+
             <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-gray-100 md:text-5xl lg:text-6xl">Education</h1>
-            
-            {/*  EDUCATION */}
-            <div className="mt-6 mb-6 grid grid-cols-1 md:grid-cols-3 gap-4">                
+            <div className="mt-6 mb-6 grid grid-cols-1 md:grid-cols-3 gap-4">
                 {educationExperiences.map((education, index) => (
-                    <EducationCard 
-                        key={index} 
+                    <EducationCard
+                        key={index}
                         image={education.image}
                         imageAlt={education.imageAlt}
                         institution={education.institution}
@@ -111,20 +104,16 @@ const Education = () => {
                     />
                 ))}
             </div>
-
-
-            {/* AWARDS */}
             <h1 class="mb-8 mt-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-gray-100 md:text-5xl lg:text-6xl">Awards</h1>
-
-                <ul class="px-10 mb-10 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow divide-y divide-gray-200 dark:divide-gray-700 max-w-full">
-                    {awards.map((award, index) => (
-                        <Award 
+            <ul class="px-10 mb-10 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow divide-y divide-gray-200 dark:divide-gray-700 max-w-full">
+                {awards.map((award, index) => (
+                    <Award
                         awardName={award.awardName}
                         awardDetails={award.awardDetails}
                         awardDate={award.awardDate}
-                        />
-                    ))}
-                </ul>
+                    />
+                ))}
+            </ul>
         </animated.div>
     )
 }

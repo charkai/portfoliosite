@@ -18,7 +18,6 @@ import { animated } from '@react-spring/web';
 import { useFadeInUp } from './shared-components/Animations';
 
 const AltAbout = () => {
-    // DATA 
     const skills = [
         {
             "title": "Database Management",
@@ -83,7 +82,6 @@ const AltAbout = () => {
     ]
     const aboutText = "Hi, I'm Charlie! I'm a full-time student with a passion for escape rooms, trivia nights, history podcasts, Ultimate Frisbee, Football and Formula 1. In my engineering degree and career thus far, I have gained a strong foundation with a range of computer science fundamentals - including object-oriented programming with Java, memory management in C, databases with SQL, and front-end development skills with JQuery, HTML and Laravel, which I was lucky enough to learn during my internship at revolutioniseSport. In the Psychology component of my degree, I have gained exposure to several disciplines. I am particularly fascinated by neuroscience and cognition, and I would love to one day work in a field that combines the best elements of both of my courses, such as AI or cybersecurity."
     
-    // State Variables
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [modalContent, setModalContent] = useState("");
     const [modalTitle, setModalTitle] = useState("");
@@ -109,7 +107,6 @@ const AltAbout = () => {
             />
 
             <animated.div style={fadeInUpStyle} className="w-full flex flex-col items-center px-10 md:px-40 pt-40">
-                {/* ABOUT ME CARD */}
                     <div className="bg-white border border-gray-200 rounded-lg shadow flex flex-col md:flex-row mb-10 dark:bg-gray-800 dark:border-gray-800">
                         <img
                             className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg"
@@ -122,15 +119,13 @@ const AltAbout = () => {
                             </p>
                         </div>
                     </div>
-
-                    {/* SKILLS SECTION */}
                     <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl pb-10 dark:text-gray-100">Skills</h1>
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-4 pb-20">
                         {skills.map((skill, index) => (
                             <Tile key={index} title={skill.title} onClick={() => handleTileClick(skill)} />
                         ))}
                     </div>
-                   
+                  
             </animated.div>
         </div>
 

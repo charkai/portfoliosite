@@ -1,7 +1,7 @@
 const ExternalLinkButton = ({linkName, linkAddress}) => {
     const handleClick = () => {
         window.open(linkAddress, '_blank');
-      };
+    };
 
     return (
         <button 

@@ -4,7 +4,6 @@ import { useFadeInUp } from './shared-components/Animations';
 import ProjectTile from './shared-components/ProjectTile';
 
 const Projects = () => {
-    // DATA
     const projects = [
         {
             "projectName": "This Portfolio Site",
@@ -44,8 +43,6 @@ const Projects = () => {
         }
 
     ]
-
-    // Animation style 
     const fadeInUpStyle = useFadeInUp();
     return (
         <animated.div style={fadeInUpStyle} className="flex flex-col px-10 md:px-40 pt-40 justify-start">

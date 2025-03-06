@@ -5,7 +5,6 @@ import TimelineElement from './shared-components/TimelineElement';
 import VolunteeringTile from './shared-components/VolunteeringTile';
 
 const Experience = () => {
-    // DATA 
     const workExperience = [
         {
             "company":"Mastercard",
@@ -37,7 +36,6 @@ const Experience = () => {
             "info":"Directly responsible for writing and overseeing the fortnightly newsletter distributed to over 500 students, organising and planning student events, liasing with other members of the executive of 10+ students, and emceeing industry panels."
         }
     ]
-
     const volunteeringExperience = [
         {
             "name": "Regional Education Support Network (RESN)",
@@ -55,8 +53,6 @@ const Experience = () => {
         }
 
     ]
-
-    // Animation style
     const fadeInUpStyle = useFadeInUp();
 
     // Inspo of timeline from 
@@ -65,8 +61,6 @@ const Experience = () => {
     <animated.div style={fadeInUpStyle} className="flex flex-col px-10 md:px-40 pt-40 justify-start">
         
         <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-gray-100 md:text-5xl lg:text-6xl">Professional Experience</h1>
-
-        {/* WORK EXPERIENCE TIMELINE */}
         <div class="w-full max-w-6xl mx-auto px-4 md:px-6">
             <div class="flex flex-col justify-center divide-y divide-slate-200 [&>*]:py-16">
                 <div class="w-full max-w-3xl mx-auto">

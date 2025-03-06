@@ -10,7 +10,7 @@ const Home = () => {
     return (
         
         <animated.div style={fadeInUpStyle} className="flex flex-col md:flex-row items-center justify-between md:p-8 pt-16 mt-16">
-        {/* Text Section */}
+
         <div className="flex-1 md:pr-8">
             <h1 className="text-5xl font-bold mb-4 text-gray-700 dark:text-gray-300">Hi! I'm Charlie Kairaitis</h1>
             <p className="text-2xl leading-relaxed text-gray-600 px-12 dark:text-gray-400">
@@ -20,7 +20,6 @@ const Home = () => {
             <span className="inline-flex items-center rounded-md bg-purple-50 dark:bg-purple-900 px-2 py-1 text-xs font-medium text-purple-700 dark:text-purple-300 ring-1 ring-inset ring-purple-700/10 dark:ring-purple-300/10 mt-4">B Eng (Software)</span>
             <span className="inline-flex ml-2 items-center rounded-md bg-purple-50 dark:bg-purple-900 px-2 py-1 text-xs font-medium text-purple-700 dark:text-purple-300 ring-1 ring-inset ring-purple-700/10 dark:ring-purple-300/10 mt-4">B Sci (Psychology) </span>
 
-            {/* ADD SOCIAL MEDIA TAGS */}
             <div className="w-full h-auto flex justify-between py-8 gap-2">
                 <div className="w-full h-auto py-8 flex items-center justify-center gap-2 flex-wrap">
                     <a href="https://www.linkedin.com/in/charlie-kairaitis-561a0920a/" target="_blank"
