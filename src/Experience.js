@@ -1,8 +1,10 @@
 import React from 'react';
+import Lottie from 'lottie-react';
 import { animated } from '@react-spring/web';
 import { useFadeInUp } from './shared-components/Animations';
 import TimelineElement from './shared-components/TimelineElement';
 import VolunteeringTile from './shared-components/VolunteeringTile';
+import blob from './assets/blob.json'; 
 
 const Experience = () => {
     const workExperience = [
@@ -81,20 +83,29 @@ const Experience = () => {
         </div>
 
         {/* Volunteering */}
-        <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">Volunteering</h1>
+        
+        <div className="relative">
+            
+            {/* <div className="absolute inset-0 flex justify-center items-center z-0">
+                <Lottie animationData={blob} loop={true} className="w-full h-[800px]" />
+            </div> */}
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pb-20 pt-10 md:pt-20">
-            {volunteeringExperience.map((volunteerRole, index) => (
-                <VolunteeringTile 
-                    key={index} 
-                    name={volunteerRole.name}
-                    startDate={volunteerRole.startDate}
-                    endDate={volunteerRole.endDate}
-                    info={volunteerRole.info}
-                    link={volunteerRole.link}
-                />
-            ))}
+            <h1 className="relative z-10 mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">Volunteering</h1>
+
+            <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-4 pb-20 pt-10 md:pt-20">
+                {volunteeringExperience.map((volunteerRole, index) => (
+                    <VolunteeringTile 
+                        key={index} 
+                        name={volunteerRole.name}
+                        startDate={volunteerRole.startDate}
+                        endDate={volunteerRole.endDate}
+                        info={volunteerRole.info}
+                        link={volunteerRole.link}
+                    />
+                ))}
+            </div>
         </div>
+
     </animated.div>
     );
 }
