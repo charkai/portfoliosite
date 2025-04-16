@@ -6,8 +6,15 @@ import ProjectTile from './shared-components/ProjectTile';
 const Projects = () => {
     const projects = [
         {
-            "projectName": "This Portfolio Site",
-            "info": "A portfolio I created in order to showcase my development skills and work.",
+            "projectName": "Cheap Eats",
+            "info": "I built a website to keep track of meal deals around the northern beaches with my friends! I built a backend with Django, and a frontend with React.js. I'm using NeonDB to host a database, Fly.io to deploy my backend, and Vercel to host the frontend.",
+            "skillsInvolved": ["React.js", "CI/CD", "Tailwind CSS", "Server Management", "Django"],
+            "externalLinkName": "Check it out",
+            "externalLinkAddress": "https://cheapeats.vercel.app/"
+        },
+        {
+            "projectName": "This Portfolio Site!",
+            "info": "A portfolio I created in order to showcase my development skills and work, as a digital CV! I've leveraged the design capabilities of Tailwind CSS combined with React.js to create aesthetic and reusable components which are utilised throughout the site. ",
             "skillsInvolved": ["React.js", "HTML", "Tailwind CSS"],
             "externalLinkName": "Github",
             "externalLinkAddress": "https://github.com/charkai/portfoliosite"
