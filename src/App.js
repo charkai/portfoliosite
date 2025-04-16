@@ -11,8 +11,7 @@ import NotFound from './NotFound'
 
 function App() {
   return (
-  
-    <div className="App bg-gray-100 dark:bg-gray-900">
+	<div className="App absolute top-0 z-[-2] h-full w-screen bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] dark:bg-gray-900">
       	<header className="App-header">
         	<Router>
 				<Navbar/>

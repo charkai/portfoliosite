@@ -58,7 +58,7 @@ const Experience = () => {
     // Inspo of timeline from 
     // https://cruip.com/3-examples-of-brilliant-vertical-timelines-with-tailwind-css/
     return (
-    <animated.div style={fadeInUpStyle} className="flex flex-col px-10 md:px-40 pt-40 justify-start">
+    <animated.div style={fadeInUpStyle} className="flex flex-col px-10 md:px-40 pt-10 justify-start">
         
         <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-gray-100 md:text-5xl lg:text-6xl">Professional Experience</h1>
         <div class="w-full max-w-6xl mx-auto px-4 md:px-6">

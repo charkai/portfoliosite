@@ -51,10 +51,16 @@ const Education = () => {
             "awardDate": "2021-2025"
         },
         {
+            "awardName": "First in Class - PSYC2015 (Brain and Behavioural Psychology)",
+            "awardDetails": "Awarded for highest grade in this unit across cohort in 2024.",
+            "awardDate": "2024"
+        },
+        {
             "awardName": "Dean's List of Excellence in Academic Performance (Faculty of Engineering)",
             "awardDetails": "Awarded annually on recommendation by the Deans, this prize recognises high performing students in each faculty based on annual average marks and enrolment.",
             "awardDate": "2022"
         },
+        
         {
             "awardName": "Vice Chancellor's Global Mobility Merit scholarship",
             "awardDetails": "achieved a Weighted Average Mark (WAM) of 75 or higher, participating in a semester exchange program.",
@@ -85,7 +91,7 @@ const Education = () => {
     const fadeInUpStyle = useFadeInUp();
 
     return (
-        <animated.div style={fadeInUpStyle} className="w-full flex flex-col items-center px-10 md:px-40 pt-40">
+        <animated.div style={fadeInUpStyle} className="w-full flex flex-col items-center px-10 md:px-40 pt-10">
 
             <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-gray-100 md:text-5xl lg:text-6xl">Education</h1>
             <div className="mt-6 mb-6 grid grid-cols-1 md:grid-cols-3 gap-4">

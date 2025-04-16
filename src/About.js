@@ -106,7 +106,7 @@ const AltAbout = () => {
                 onClose={() => setIsModalOpen(false)}
             />
 
-            <animated.div style={fadeInUpStyle} className="w-full flex flex-col items-center px-10 md:px-40 pt-40">
+            <animated.div style={fadeInUpStyle} className="w-full flex flex-col items-center px-10 md:px-40 pt-10">
                     <div className="bg-white border border-gray-200 rounded-lg shadow flex flex-col md:flex-row mb-10 dark:bg-gray-800 dark:border-gray-800">
                         <img
                             className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-s-lg"
