@@ -1,6 +1,6 @@
 const EducationCard = ({ image, imageAlt, institution, degree, startDate, endDate, info, stat, statContext }) => {
 	return (
-		<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 flex flex-col">
+		<div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 flex flex-col">
 			<img className="rounded-t-lg h-60 md:h-80 w-auto" src={image} alt={imageAlt} />
 			<div className="p-5 flex-grow">
 				<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{institution}</h5>

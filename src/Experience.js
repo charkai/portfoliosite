@@ -13,7 +13,7 @@ const Experience = () => {
             "role":"Software Engineering Intern",
             "startDate":"Dec 2024",
             "endDate":"Jan 2025",
-            "info": "8-week internship program at the Sydney Tech Hub, as a full-stack engineer. Within the performance engineering team, I utilised Vue.js, Express, Tailwind CSS and PostgreSQL to enhance web application features used by global Mastercard teams to monitor and test features developed. In addition, I worked with Python and the Confluence and Jenkins APIs to automate documentation processes for engineering teams."
+            "info": "8-week internship program at the Sydney Tech Hub, as a full-stack engineer. Within the performance engineering team, I utilised Vue.js, Express, Tailwind CSS and PostgreSQL to enhance web application features used by global Mastercard teams to monitor and test features developed. In addition, I worked with Python and the Confluence and Jenkins APIs to automate reporting processes for engineering teams, saving time in manual documentation for thousands of developers across the company."
             
         },
         {
@@ -40,20 +40,26 @@ const Experience = () => {
     ]
     const volunteeringExperience = [
         {
-            "name": "Regional Education Support Network (RESN)",
-            "startDate": "2021",
-            "endDate": "2023",
-            "info": "As a volunteer at RESN, I assisted in providing online education support to high school students from regional and rural Australia. I would spend around 1-2 hours per week answering forum questions from students studying Modern History, Ancient History, Mathematics Advanced, Maths Extension 1 and Chemistry. As a Content Creator for HSC Chemistry, I wrote wikis and created sample exam-style questions and answer rubrics for students. I additionally assisted the organisation with designing a tutor onboarding program for Ancient History, which involved scaffolding a sample question and several approaches to an answer.",
-            "link": "https://www.resn.org.au/"
-        },
-        {
             "name": "The Greyhound Rescue",
             "startDate": "2024",
             "endDate": "current",
             "info": "As a volunteer kennel hand at the Greyhound Rescue, I assist at the shelter with general caretaking duties, involving cleaning, feeding, walking, providing enrichment for and taking care of the dogs for 4 hours in the morning or afternoon, typically 2-4 times per month. The kennel at the Greyhound Rescue is a crucial part in allowing for the loving rehabilitation and socialisation of rescued greyhounds, before they are able to be rehomed to the right family. I love the opportunity to play a part in the journey of these gentle and gorgeous dogs, and to work with and around other like-minded people.",
             "link": "https://greyhoundrescue.com.au/?gad_source=1&gclid=CjwKCAiAw5W-BhAhEiwApv4goCTWzUnHTQ4y74jf7yUrxjSYEBuoGncX5_UZMsxUuIYsVV6mHmrJ0RoCUwIQAvD_BwE"
+        },
+        {
+            "name": "Asociación Salvemos las Tortugas de Parismina (ASTOP)",
+            "startDate": "14 July 2025",
+            "endDate": "25 July 2025",
+            "info": "For two weeks, I assisted with a community-based program in Parismina, Costa Rica to help with conservation efforts for the significant sea turtle nesting population. Arriving at the start of green turtle nesting season, I assisted on night patrols designed to protect the turtles from poaching and conduct scientific monitoring of nesting activity (involving tagging and taking measurements), managed a hatchery to ensure egg protection, engaged with the community with cleanup and general maintenance efforts, and assisted with construction efforts including the rebuilding of a secure hatchery.",
+            "link": "https://www.parisminaturtles.org/"
+        },
+        {
+            "name": "Regional Education Support Network (RESN)",
+            "startDate": "2021",
+            "endDate": "2023",
+            "info": "As a volunteer at RESN, I assisted in providing online education support to high school students from regional and rural Australia. I would spend around 1-2 hours per week answering forum questions from students studying Modern History, Ancient History, Mathematics Advanced, Maths Extension 1 and Chemistry. As a Content Creator for HSC Chemistry, I wrote wikis and created sample exam-style questions and answer rubrics for students. I additionally assisted the organisation with designing a tutor onboarding program for Ancient History, which involved scaffolding a sample question and several approaches to an answer.",
+            "link": "https://www.resn.org.au/"
         }
-
     ]
     const fadeInUpStyle = useFadeInUp();
 
@@ -62,11 +68,11 @@ const Experience = () => {
     return (
     <animated.div style={fadeInUpStyle} className="flex flex-col px-10 md:px-40 pt-10 justify-start">
         
-        <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-gray-100 md:text-5xl lg:text-6xl">Professional Experience</h1>
-        <div class="w-full max-w-6xl mx-auto px-4 md:px-6">
-            <div class="flex flex-col justify-center divide-y divide-slate-200 [&>*]:py-16">
-                <div class="w-full max-w-3xl mx-auto">
-                    <div class="-my-6">
+        <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-gray-100 md:text-5xl lg:text-6xl">Professional Experience</h1>
+        <div className="w-full max-w-6xl mx-auto px-4 md:px-6">
+            <div className="flex flex-col justify-center divide-y divide-slate-200 [&>*]:py-16">
+                <div className="w-full max-w-3xl mx-auto">
+                    <div className="-my-6">
                         {workExperience.map((job, index) => (
                             <TimelineElement 
                                 key={index} 
@@ -92,7 +98,7 @@ const Experience = () => {
 
             <h1 className="relative z-10 mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">Volunteering</h1>
 
-            <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-4 pb-20 pt-10 md:pt-20">
+            <div className="relative z-10 grid grid-cols-1 md:grid-cols-1 gap-4 pb-20 pt-10 md:pt-20">
                 {volunteeringExperience.map((volunteerRole, index) => (
                     <VolunteeringTile 
                         key={index} 

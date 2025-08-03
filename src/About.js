@@ -119,7 +119,7 @@ const AltAbout = () => {
                             </p>
                         </div>
                     </div>
-                    <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl pb-10 dark:text-gray-100">Skills</h1>
+                    <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl pb-10 dark:text-gray-100">Skills</h1>
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-4 pb-20">
                         {skills.map((skill, index) => (
                             <Tile key={index} title={skill.title} onClick={() => handleTileClick(skill)} />

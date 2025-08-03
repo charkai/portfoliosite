@@ -54,9 +54,9 @@ const Projects = () => {
     return (
         <animated.div style={fadeInUpStyle} className="flex flex-col px-10 md:px-40 pt-10 justify-start">
 
-            <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-gray-100 md:text-5xl lg:text-6xl">Projects</h1>
+            <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-gray-100 md:text-5xl lg:text-6xl">Projects</h1>
             
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pb-20 mt-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pb-20 mt-10">
                 {projects.map((project, index) => (
                     <ProjectTile 
                         key={index} 
