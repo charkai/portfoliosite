@@ -9,6 +9,14 @@ import blob from './assets/blob.json';
 const Experience = () => {
     const workExperience = [
         {
+            "company":"Commonwealth Bank of Australia",
+            "role":"Engineering - Technology Intern",
+            "startDate":"Dec 2025",
+            "endDate":"Jan 2026",
+            "info": "8-week internship program over summer, within the Operations Technology team. Development of a framework and runner for evaluating Agentic AI models designed to improve analyst's workflows, and developing data apps with Streamlit. "
+            
+        },
+        {
             "company":"Mastercard",
             "role":"Software Engineering Intern",
             "startDate":"Dec 2024",

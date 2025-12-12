@@ -18,7 +18,7 @@ const Education = () => {
             "startDate": "2021",
             "endDate": "2026",
             "info": "Majoring in Psychology program. Relevant Subjects and Grades: Object Oriented Programming (Java) - 92%, Systems Programming (C) - 98%, Data andInformation Management (SQL) - 94%, Software Development Project (Capstone project) - 94%",
-            "stat": "91.28",
+            "stat": "90.1",
             "statContext": "WAM"
         },
         {
